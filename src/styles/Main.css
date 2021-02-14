@@ -1,0 +1,40 @@
+.Main {
+	min-width: 100vw;
+	min-height: 100vh;
+	background-image: url('../static/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	filter: grayscale(100%);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-btn {
+	display: flex;
+	align-items: center;
+	margin-top: 1em;
+	padding: 10px 20px;
+	outline: none;
+	border: 2px solid black;
+	background: transparent;
+	font-size: 1em;
+}
+
+.main-btn:hover {
+	color: white;
+	display: flex;
+	align-items: center;
+	margin-top: 1em;
+	padding: 10px 20px;
+	outline: none;
+	border: 2px solid black;
+	background-color: black;
+	font-size: 1em;
+	cursor: pointer;
+}
