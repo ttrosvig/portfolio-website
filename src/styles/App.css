@@ -3,3 +3,23 @@
 	margin: 0;
 	padding: 0;
 }
+
+html {
+	overflow: scroll;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Cardo', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
