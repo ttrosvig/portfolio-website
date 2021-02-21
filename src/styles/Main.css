@@ -1,15 +1,15 @@
-.Main {
-	min-width: 100vw;
-	min-height: 100vh;
-	background-color: #2d2d2d;
-	color: white;
-}
-
 .container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.Main {
+	min-width: 100vw;
+	min-height: 100vh;
+	background-color: #2d2d2d;
+	color: white;
 }
 
 .Main-header {
@@ -22,29 +22,8 @@
 	filter: grayscale(100%);
 }
 
-.main-btn {
-	display: flex;
-	align-items: center;
-	margin-top: 1em;
-	color: white;
-	padding: 10px 20px;
-	outline: none;
-	border: 2px solid white;
-	background: transparent;
-	font-size: 1em;
-}
-
-.main-btn:hover {
-	color: black;
-	display: flex;
-	align-items: center;
-	margin-top: 1em;
-	padding: 10px 20px;
-	outline: none;
-	border: 2px solid white;
-	background-color: white;
-	font-size: 1em;
-	cursor: pointer;
+.Main-p {
+	font-size: 1.5em;
 }
 
 /* SVG Styles */

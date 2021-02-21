@@ -27,11 +27,7 @@ const Main = () => {
 				<img className="Main-image" src={Image} alt="This is a photo of me!" />
 
 				<h1 className="Main-header">Tristan Trosvig</h1>
-
-				<button className="main-btn">
-					View Projects
-					<i style={{ marginLeft: '5px' }} className="fas fa-arrow-right" />
-				</button>
+				<p className="Main-p">Web Developer / Frontend Software Engineer</p>
 			</div>
 
 			<div class="custom-shape-divider-bottom-1613945740">
