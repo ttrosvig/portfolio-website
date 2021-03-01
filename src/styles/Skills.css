@@ -1,0 +1,23 @@
+.Skills {
+	min-height: 100vh;
+	min-width: 100vw;
+	background-color: #2d2d2d;
+	color: white;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-container {
+	font-size: 4em;
+}
+
+@media screen and (max-width: 650px) {
+	.text-container {
+		text-align: center;
+	}
+}

@@ -6,14 +6,37 @@
 }
 
 .AboutMe {
-	height: 100vh;
-	width: 100vw;
+	min-height: 100vh;
+	min-width: 100vw;
 	background: #30bcd1;
 	color: white;
 	font-size: 2em;
+	position: relative;
 }
 
 .AboutMe-text-container {
 	text-align: center;
-	margin: 2em 5em;
+	margin: 50px 100px;
+}
+
+/* SVG Styles */
+.custom-shape-divider-bottom-1614555598 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1614555598 svg {
+	position: relative;
+	display: block;
+	width: calc(147% + 1.3px);
+	height: 146px;
+}
+
+.custom-shape-divider-bottom-1614555598 .shape-fill {
+	fill: #2d2d2d;
 }

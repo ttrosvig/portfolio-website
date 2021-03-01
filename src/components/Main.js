@@ -4,6 +4,16 @@ import Image from '../static/photo.png';
 const Main = () => {
 	return (
 		<div className="Main container">
+			<div className="Main-media">
+				<a href="#">
+					<i className="fab fa-linkedin" />
+				</a>
+
+				<a href="#">
+					<i className="fab fa-github" />
+				</a>
+			</div>
+
 			<div className="custom-shape-divider-top-1613944815">
 				<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
 					<path
@@ -30,9 +40,9 @@ const Main = () => {
 				<p className="Main-p">Web Developer / Frontend Software Engineer</p>
 			</div>
 
-			<div class="custom-shape-divider-bottom-1613945740">
+			<div className="custom-shape-divider-bottom-1613945740">
 				<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-					<path d="M0,0V6c0,21.6,291,111.46,741,110.26,445.39,3.6,459-88.3,459-110.26V0Z" class="shape-fill" />
+					<path d="M0,0V6c0,21.6,291,111.46,741,110.26,445.39,3.6,459-88.3,459-110.26V0Z" className="shape-fill" />
 				</svg>
 			</div>
 		</div>
