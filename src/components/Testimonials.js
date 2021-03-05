@@ -3,9 +3,7 @@ import '../styles/Testimonials.css';
 const Testimonials = () => {
 	return (
 		<div className="Testimonials container">
-			<h1 className="lax lax_preset_fadeIn:198.75:0 lax_preset_blurIn:265:20" style={{ margin: '0.5em' }}>
-				Testimonials
-			</h1>
+			<h1 style={{ margin: '0.5em' }}>Testimonials</h1>
 
 			<div className="Testimonials-container">
 				<div>

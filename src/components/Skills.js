@@ -3,9 +3,7 @@ import '../styles/Skills.css';
 const Skills = () => {
 	return (
 		<section className="Skills">
-			<h2 className="lax lax_preset_fadeIn:198.75:0 lax_preset_blurIn:265:20" style={{ textAlign: 'center' }}>
-				Skills
-			</h2>
+			<h2 style={{ textAlign: 'center' }}>Skills</h2>
 
 			<div className="col-container">
 				<ul>
