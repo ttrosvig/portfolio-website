@@ -31,14 +31,14 @@
 
 .Main-media {
 	position: absolute;
-	top: 10px;
-	right: 15%;
+	top: 3%;
+	right: 10%;
 	z-index: 1;
 }
 
 .Main-media a {
 	color: white;
-	font-size: 1.5em;
+	font-size: 2rem;
 	margin: 5px 5px;
 }
 
@@ -49,7 +49,7 @@
 }
 
 /* SVG Styles */
-.custom-shape-divider-top-1613944815 {
+.custom-shape-divider-top-1614963613 {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -58,18 +58,28 @@
 	line-height: 0;
 }
 
-.custom-shape-divider-top-1613944815 svg {
-	position: relative;
-	display: block;
-	width: calc(100% + 1.3px);
-	height: 144px;
+/* SVG Styles */
+.custom-shape-divider-top-1614963905 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
 }
 
-.custom-shape-divider-top-1613944815 .shape-fill {
+.custom-shape-divider-top-1614963905 svg {
+	position: relative;
+	display: block;
+	width: calc(201% + 1.3px);
+	height: 124px;
+}
+
+.custom-shape-divider-top-1614963905 .shape-fill {
 	fill: #30bcd1;
 }
 
-.custom-shape-divider-bottom-1613945740 {
+.custom-shape-divider-bottom-1614964198 {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -79,13 +89,13 @@
 	transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1613945740 svg {
+.custom-shape-divider-bottom-1614964198 svg {
 	position: relative;
 	display: block;
-	width: calc(100% + 1.3px);
-	height: 92px;
+	width: calc(201% + 1.3px);
+	height: 75px;
 }
 
-.custom-shape-divider-bottom-1613945740 .shape-fill {
+.custom-shape-divider-bottom-1614964198 .shape-fill {
 	fill: #30bcd1;
 }

@@ -20,7 +20,7 @@
 }
 
 /* SVG Styles */
-.custom-shape-divider-bottom-1614555598 {
+.custom-shape-divider-bottom-1614964376 {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -30,13 +30,13 @@
 	transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1614555598 svg {
+.custom-shape-divider-bottom-1614964376 svg {
 	position: relative;
 	display: block;
-	width: calc(147% + 1.3px);
-	height: 146px;
+	width: calc(199% + 1.3px);
+	height: 63px;
 }
 
-.custom-shape-divider-bottom-1614555598 .shape-fill {
+.custom-shape-divider-bottom-1614964376 .shape-fill {
 	fill: #2d2d2d;
 }
