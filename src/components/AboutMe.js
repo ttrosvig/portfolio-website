@@ -2,7 +2,7 @@ import '../styles/AboutMe.css';
 
 const AboutMe = () => {
 	return (
-		<div className="AboutMe container">
+		<section className="AboutMe container">
 			<h2> A Little Bit About Me...</h2>
 
 			<div className="AboutMe-text-container">
@@ -18,12 +18,12 @@ const AboutMe = () => {
 				<p>Programming, hunting, board games, video games and spending time with my dog, Mavis.</p>
 			</div>
 
-			<div class="custom-shape-divider-bottom-1614964376">
+			<div className="custom-shape-divider-bottom-1614964376">
 				<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-					<path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill" />
+					<path d="M1200 0L0 0 598.97 114.72 1200 0z" className="shape-fill" />
 				</svg>
 			</div>
-		</div>
+		</section>
 	);
 };
 

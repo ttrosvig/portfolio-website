@@ -3,17 +3,23 @@
 	min-width: 100vw;
 	background-color: #2d2d2d;
 	color: white;
+	font-size: 2rem;
 }
 
-.container {
+.col-container {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	flex-direction: row;
+	justify-content: space-between;
 	align-items: center;
+	margin: 0 15%;
 }
 
-.text-container {
-	font-size: 4em;
+.Skills ul {
+	list-style-type: none;
+}
+
+ul i {
+	margin-right: 10px;
 }
 
 @media screen and (max-width: 650px) {
