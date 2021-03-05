@@ -3,29 +3,31 @@ import '../styles/Skills.css';
 const Skills = () => {
 	return (
 		<section className="Skills">
-			<h2 style={{ textAlign: 'center' }}>Skills</h2>
+			<h2 className="lax lax_preset_fadeIn:198.75:0 lax_preset_blurIn:265:20" style={{ textAlign: 'center' }}>
+				Skills
+			</h2>
 
 			<div className="col-container">
 				<ul>
 					<b>Languages</b>
 					<li>
-						<i className="fab fa-html5" /> HTML
+						<i className="fab fa-html5 lax lax_preset_flipY:1000:360 lax_preset_fadeIn:198.75:0" /> HTML
 					</li>
 					<li>
-						<i className="fab fa-css3" /> CSS
+						<i className="fab fa-css3 lax lax_preset_flipY:1000:360 lax_preset_fadeIn:198.75:0" /> CSS
 					</li>
 					<li>
-						<i className="fab fa-js-square" /> JavaScript
+						<i className="fab fa-js-square lax lax_preset_flipY:1000:360 lax_preset_fadeIn:198.75:0" /> JavaScript
 					</li>
 					<li>
-						<i className="fab fa-java" />
+						<i className="fab fa-java lax lax_preset_flipY:1000:360 lax_preset_fadeIn:198.75:0" />
 						Java
 					</li>
 					<li>
-						<i className="fab fa-python" /> Python
+						<i className="fab fa-python lax lax_preset_flipY:1000:360 lax_preset_fadeIn:198.75:0" /> Python
 					</li>
 					<li>
-						<i className="fab fa-php" />
+						<i className="fab fa-php lax lax_preset_flipY:1000:360 lax_preset_fadeIn:198.75:0" />
 						PHP
 					</li>
 				</ul>

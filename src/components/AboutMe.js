@@ -3,7 +3,9 @@ import '../styles/AboutMe.css';
 const AboutMe = () => {
 	return (
 		<section className="AboutMe container">
-			<h2 style={{ textAlign: 'center' }}> A Little Bit About Me...</h2>
+			<h2 className="lax lax_preset_fadeIn:198.75:0 lax_preset_blurIn:265:20" style={{ textAlign: 'center' }}>
+				A Little Bit About Me...
+			</h2>
 
 			<div className="AboutMe-text-container">
 				<p>
