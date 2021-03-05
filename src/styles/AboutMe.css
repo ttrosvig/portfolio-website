@@ -15,7 +15,11 @@
 }
 
 .AboutMe-text-container {
-	margin: 50px 100px;
+	margin: 1em 1.5em;
+}
+
+.AboutMe > h2 {
+	margin: 0 1em;
 }
 
 /* SVG Styles */

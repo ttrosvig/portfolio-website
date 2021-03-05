@@ -3,12 +3,12 @@ import '../styles/AboutMe.css';
 const AboutMe = () => {
 	return (
 		<section className="AboutMe container">
-			<h2> A Little Bit About Me...</h2>
+			<h2 style={{ textAlign: 'center' }}> A Little Bit About Me...</h2>
 
 			<div className="AboutMe-text-container">
 				<p>
 					I am a software engineer who loves tackling challenges big and small. I am continuously learning, and I enjoy
-					every minute of it. With me on your team, I can guarentee quality and timely results above and beyond what is
+					every minute of it. With me on your team, I can guarantee quality and timely results above and beyond what is
 					expected.
 				</p>
 
