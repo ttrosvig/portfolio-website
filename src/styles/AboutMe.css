@@ -3,7 +3,7 @@
 	min-width: 100vw;
 	background: #30bcd1;
 	color: white;
-	font-size: 1.8em;
+	font-size: 1.75em;
 	position: relative;
 }
 
@@ -15,11 +15,7 @@
 }
 
 .AboutMe-text-container {
-	margin: 1em 1.5em;
-}
-
-.AboutMe > h2 {
-	margin: 0 1em;
+	margin: 2em 1.5em;
 }
 
 /* SVG Styles */
