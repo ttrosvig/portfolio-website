@@ -7,10 +7,15 @@ const AboutMe = () => {
 
 			<div className="AboutMe-text-container">
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deleniti eaque quisquam recusandae sunt
-					dolorem autem ducimus ad assumenda quaerat quas beatae tempora nostrum facere quo dolore, delectus sint
-					inventore? Cum deserunt possimus maiores soluta neque autem natus placeat eum.
+					I am a software engineer who loves tackling challenges big and small. I am continuously learning, and I enjoy
+					every minute of it. With me on your team, I can guarentee quality and timely results above and beyond what is
+					expected.
 				</p>
+
+				<br />
+
+				<h4>Interests</h4>
+				<p>Programming, hunting, board games, video games and spending time with my dog, Mavis.</p>
 			</div>
 
 			<div class="custom-shape-divider-bottom-1614964376">
