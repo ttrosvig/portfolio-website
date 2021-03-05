@@ -5,11 +5,11 @@ const Main = () => {
 	return (
 		<main className="Main container">
 			<nav className="Main-media">
-				<a href="#">
+				<a target="_blank" href="https://www.linkedin.com/in/tristan-trosvig">
 					<i className="fab fa-linkedin" />
 				</a>
 
-				<a href="#">
+				<a target="_blank" href="https://github.com/ttrosvig">
 					<i className="fab fa-github" />
 				</a>
 			</nav>

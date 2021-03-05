@@ -52,7 +52,7 @@ const Skills = () => {
 					</li>
 
 					<li>
-						<a href="https://recipe-book-capstone1.herokuapp.com" taret="_blank">
+						<a target="_blank" href="https://recipe-book-capstone1.herokuapp.com">
 							Cook Book
 						</a>
 					</li>

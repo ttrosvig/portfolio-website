@@ -15,7 +15,7 @@ const AboutMe = () => {
 				<br />
 
 				<h4>Interests</h4>
-				<p>Programming, hunting, board games, video games and spending time with my dog, Mavis.</p>
+				<p>Programming, board games, video games and spending time with my dog, Mavis.</p>
 			</div>
 
 			<div className="custom-shape-divider-bottom-1614964376">
