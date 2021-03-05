@@ -4,7 +4,7 @@
 	background-color: #30bcd1;
 	position: relative;
 	color: white;
-	font-size: 1.3em;
+	font-size: 1.5em;
 }
 
 .Testimonials-main {
@@ -23,7 +23,7 @@
 	margin: 1em;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
 	.Testimonials {
 		font-size: 1.2em;
 	}
