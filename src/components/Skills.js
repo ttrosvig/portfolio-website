@@ -40,6 +40,30 @@ const Skills = () => {
 					<li>Tailwind</li>
 				</ul>
 			</div>
+
+			<div className="container">
+				<h2 style={{ textAlign: 'center', marginTop: '0.25em' }}>Some of my work</h2>
+
+				<ul style={{ marginBottom: '2em' }}>
+					<li>
+						<a target="_blank" href="http://www.allyscloset.org">
+							Ally's Closet
+						</a>
+					</li>
+
+					<li>
+						<a href="https://recipe-book-capstone1.herokuapp.com" taret="_blank">
+							Cook Book
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="custom-shape-divider-bottom-1614970952">
+				<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+					<path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill" />
+				</svg>
+			</div>
 		</section>
 	);
 };

@@ -4,6 +4,7 @@
 	background-color: #2d2d2d;
 	color: white;
 	font-size: 2rem;
+	position: relative;
 }
 
 .col-container {
@@ -18,12 +19,42 @@
 	list-style-type: none;
 }
 
+ul li a {
+	color: white;
+}
+
 ul i {
 	margin-right: 10px;
 }
 
 @media screen and (max-width: 650px) {
-	.text-container {
-		text-align: center;
+	.col-container {
+		flex-direction: column;
 	}
+
+	ul {
+		margin: 0.5em 0;
+	}
+}
+
+/* SVG Styles */
+.custom-shape-divider-bottom-1614970952 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1614970952 svg {
+	position: relative;
+	display: block;
+	width: calc(200% + 1.3px);
+	height: 75px;
+}
+
+.custom-shape-divider-bottom-1614970952 .shape-fill {
+	fill: #30bcd1;
 }

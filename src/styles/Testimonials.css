@@ -1,0 +1,33 @@
+.Testimonials {
+	width: 100vw;
+	height: 100vh;
+	background-color: #30bcd1;
+	position: relative;
+	color: white;
+	font-size: 1.3em;
+}
+
+.Testimonials-main {
+	margin-top: 2em;
+}
+
+.Testimonials-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1em;
+}
+
+.Testimonials-container div {
+	margin: 1em;
+}
+
+@media screen and (max-width: 650px) {
+	.Testimonials {
+		font-size: 1.2em;
+	}
+	.Testimonials-container {
+		flex-direction: column;
+	}
+}
