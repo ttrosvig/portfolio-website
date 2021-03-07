@@ -9,23 +9,23 @@ const Skills = () => {
 				<ul>
 					<b>Languages</b>
 					<li>
-						<i className="fab fa-html5 lax lax_preset_flipY:1000:360 lax_preset_fadeIn:198.75:0" /> HTML
+						<i className="fab fa-html5 lax lax_preset_flipY:1000:720" /> HTML
 					</li>
 					<li>
-						<i className="fab fa-css3 lax lax_preset_flipY:1000:360 lax_preset_fadeIn:198.75:0" /> CSS
+						<i className="fab fa-css3 lax lax_preset_flipY:1000:720" /> CSS
 					</li>
 					<li>
-						<i className="fab fa-js-square lax lax_preset_flipY:1000:360 lax_preset_fadeIn:198.75:0" /> JavaScript
+						<i className="fab fa-js-square lax lax_preset_flipY:1000:720" /> JavaScript
 					</li>
 					<li>
-						<i className="fab fa-java lax lax_preset_flipY:1000:360 lax_preset_fadeIn:198.75:0" />
+						<i className="fab fa-java lax lax_preset_flipY:1000:720" />
 						Java
 					</li>
 					<li>
-						<i className="fab fa-python lax lax_preset_flipY:1000:360 lax_preset_fadeIn:198.75:0" /> Python
+						<i className="fab fa-python lax lax_preset_flipY:1000:720" /> Python
 					</li>
 					<li>
-						<i className="fab fa-php lax lax_preset_flipY:1000:360 lax_preset_fadeIn:198.75:0" />
+						<i className="fab fa-php lax lax_preset_flipY:1000:720" />
 						PHP
 					</li>
 				</ul>
