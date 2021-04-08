@@ -12,6 +12,10 @@ const Main = () => {
 				<a target="_blank" href="https://github.com/ttrosvig">
 					<i className="fab fa-github" />
 				</a>
+
+				<a href="../static/Resume.pdf" download>
+					Resume
+				</a>
 			</nav>
 
 			<div className="custom-shape-divider-top-1614963905">
