@@ -1,5 +1,6 @@
 import '../styles/Main.css';
 import Image from '../static/photo.png';
+import Resume from '../static/Resume.pdf';
 
 const Main = () => {
 	return (
@@ -13,9 +14,13 @@ const Main = () => {
 					<i className="fab fa-github" />
 				</a>
 
-				<a href="../static/Resume.pdf" download>
-					Resume
-				</a>
+				<div className="tool-tip-container">
+					<a className="Main-resume" href={Resume} download>
+						<i class="fas fa-file" />
+
+						<div className="tool-tip">Download Resume</div>
+					</a>
+				</div>
 			</nav>
 
 			<div className="custom-shape-divider-top-1614963905">

@@ -44,6 +44,29 @@
 	margin: 5px 5px;
 }
 
+.Main-resume {
+	text-decoration: none;
+	/* font-size: 1.5em !important; */
+}
+
+.tool-tip {
+	background-color: white;
+	color: #2d2d2d;
+	padding: 0.75em;
+	position: absolute;
+	font-size: 1rem !important;
+	visibility: hidden;
+	transition: visibility 0.75s linear;
+}
+
+.tool-tip-container {
+	display: inline;
+}
+
+.tool-tip-container:hover .tool-tip {
+	visibility: visible;
+}
+
 @media screen and (max-width: 650px) {
 	.Main-image {
 		width: 15em;
