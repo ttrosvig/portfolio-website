@@ -56,7 +56,7 @@
 	position: absolute;
 	font-size: 1rem !important;
 	visibility: hidden;
-	transition: visibility 0.75s linear;
+	transition: visibility 0.25s linear;
 }
 
 .tool-tip-container {
